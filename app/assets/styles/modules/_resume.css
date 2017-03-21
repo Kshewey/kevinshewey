@@ -1,0 +1,47 @@
+.resume {
+
+  line-height: .65;
+
+&-line-height-fix {
+line-height: .65;
+}
+  &-download {
+    height: 8%;
+    width: 8%;
+    margin: auto;
+    font-size: .8rem;
+p {
+  text-align: center;
+  font-size: .7rem;
+}
+
+    img {
+      height: 100%;
+      width: 100%;
+
+    }
+  &-wrapper {
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+  }
+
+
+}
+  &-heading {
+    font-size: 4rem;
+    color: rgb(255, 212, 100);
+    margin-bottom: .0001rem;
+    text-shadow: .5px .5px grey;
+    line-height: 0.85;
+
+  }
+
+  &-school {
+    font-size: 1.5rem;
+    line-height: .7rem;
+  }
+
+  &-line-spacing-small {
+    line-height: .3rem;
+  }
+}

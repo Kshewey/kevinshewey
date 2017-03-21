@@ -1,0 +1,14 @@
+.row {
+
+
+  &__medium-4 {
+    float: left;
+    width: 33%;
+  }
+
+  :after {
+    content: "";
+    clear: both;
+    display: table;
+}
+}
