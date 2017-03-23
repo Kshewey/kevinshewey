@@ -1,0 +1,34 @@
+.about {
+
+&-background {
+
+  background-color: rgba(255, 212, 100, .9);
+    border: .01rem solid black;
+
+}
+
+&-wrapper {
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+&-img {
+  width: 23%;
+  height: auto;
+
+   img {
+     width: 100%;
+     height: 100%
+   }
+}
+
+&-float-left {
+  float:left;
+  margin-right: 2rem;
+}
+
+&-float-right {
+  float:right;
+  margin-left: 2rem;
+
+}
+}

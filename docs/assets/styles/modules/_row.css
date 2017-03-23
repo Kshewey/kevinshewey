@@ -1,0 +1,18 @@
+.row {
+display: inline-block;
+
+&-middle {
+  float:left;
+  width: 25%;
+}
+  &__medium-4 {
+    float: left;
+    width: 33%;
+  }
+
+  :after {
+    content: "";
+    clear: both;
+    display: table;
+}
+}

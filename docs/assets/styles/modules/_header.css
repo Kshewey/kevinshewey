@@ -1,0 +1,44 @@
+.header {
+
+&-bottom-border {
+  border-bottom: .5rem solid rgb(19, 82, 162);
+  margin-bottom: 1rem;
+}
+&-union {
+font-size: 1rem;
+margin-top: -1rem;
+}
+
+&-nav-bar {
+    list-style: none;
+margin-right: 2rem;
+
+    &::after {
+      content: "";
+      clear: both;
+      display: table;
+
+
+}
+    & li {
+      margin-top: -1rem;
+      display: inline;
+      margin-left: 2rem;
+      float: right;
+      font-weight: 600;
+      font-size: 1.2rem;
+
+       a {
+         text-decoration: none;
+         color: black;
+
+       }
+
+       :hover {
+         text-decoration: underline;
+       }
+
+
+    }
+  }
+}

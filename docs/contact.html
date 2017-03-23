@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kevin Shewey - Actor</title>
+  <meta name="keywords" content="Kevin Shewey, Actor">
+  <meta name="description" content="Kevin Shewey - Actor Webpage">
+  <link rel="stylesheet" href="temp/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  <link rel="stylesheet" href="ism/css/my-slider.css"/>
+  <script src="ism/js/ism-2.2.min.js"></script>
+
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header-bottom-border">
+    <h1 class="header-person">Kevin Shewey</h1>
+    <div class="border">
+      <h2 class="header-union">AEA | SAG-AFTRAe</h2>
+      <ul class="header-nav-bar">
+<li><a href="contact.html">Contact</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="media.html">Media</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="index.html">Home</a></li>
+
+
+
+      </ul>
+    </div>
+    </div>
+  <div class="contact contact-centered contact-background">
+
+    <h2>Contact me!</h2>
+
+       <p>I would <em>love</em> to hear from you! </p>
+        <p>Email me at Kevin.Shewey@gmail.com or use the <b><em>Contact Form</em></b>
+           to send me a message. </p>
+
+</div>
+
+
+    <fieldset class="contact-field">
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="What your Mom calls you" />
+    </fieldset>
+
+    <fieldset class="contact-field">
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" rows="10"
+      placeholder="What can I do for you?"></textarea>
+    </fieldset>
+
+    <fieldset class="contact-field">
+      <label for="email"><em>Your</em> Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/>
+      <span id="email-invalid" style="visibility:hidden">
+        Must be a valid email address</span>
+    </fieldset>
+
+    <fieldset class="contact-field">
+      <label for="color">Favourite Color: </label>
+      <input id="color" name="color" placeholder="chartreuse" />
+    </fieldset>
+
+
+    <button class="contact-btn">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+  </form>
+
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting me!</h2>
+  </div>
+
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+<!-- END -->
+
+
+</body>
+</html>
