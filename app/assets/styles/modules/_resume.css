@@ -2,12 +2,22 @@
 
   line-height: .65;
 
+
+
 &-line-height-fix {
-line-height: .65;
+    line-height: .65rem;
 }
+
+  &-entire-margins{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+
   &-download {
     height: 8%;
     width: 8%;
+    display: block;
     margin: auto;
     font-size: .8rem;
 p {
@@ -20,19 +30,20 @@ p {
       width: 100%;
 
     }
-  &-wrapper {
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
+
 
 
 }
   &-heading {
     font-size: 4rem;
     color: rgb(255, 212, 100);
-    margin-bottom: .0001rem;
     text-shadow: .5px .5px grey;
     line-height: 0.85;
+    margin-bottom: .01rem;
+    margin-top: .01rem;
+    text-align: left;
+    display: block;
+
 
   }
 
@@ -44,4 +55,6 @@ p {
   &-line-spacing-small {
     line-height: .3rem;
   }
+
+
 }

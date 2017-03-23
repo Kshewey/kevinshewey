@@ -1,0 +1,41 @@
+.contact {
+
+&-btn {
+  background-color: $mainBlue;
+  color: white;
+display: block;
+margin: 0 auto;
+}
+
+&-field {
+  width: 80%;
+  display: inline-block;
+  margin-left: 6.6rem;
+  margin-right: 6.5rem;
+
+> input {
+  width: 65rem;
+
+}
+
+> textarea {
+
+width: 65rem;
+
+
+}
+
+}
+&-background {
+  background-color: $mainYellow;
+  width: 80%;
+  height: 30%;
+  margin: auto;
+  border: .01rem solid black;
+  margin-bottom: 1rem;
+}
+
+  &-centered {
+  text-align: center;
+}
+}

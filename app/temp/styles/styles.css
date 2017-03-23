@@ -543,6 +543,15 @@ a {
     height: 400px;
 }
 
+.row {
+display: inline-block;
+}
+
+.row-middle {
+  float:left;
+  width: 25%;
+}
+
 .row__medium-4 {
   float: left;
   width: 33%;
@@ -557,15 +566,23 @@ a {
 .resume {
 
   line-height: .65;
+
+
 }
 
 .resume-line-height-fix {
-  line-height: .65;
+  line-height: .65rem;
+}
+
+.resume-entire-margins{
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .resume-download {
   height: 8%;
   width: 8%;
+  display: block;
   margin: auto;
   font-size: .8rem;
 }
@@ -580,17 +597,15 @@ a {
   width: 100%;
 }
 
-.resume-download-wrapper {
-  margin-bottom: 2rem;
-  padding-bottom: 4rem;
-}
-
 .resume-heading {
   font-size: 4rem;
   color: rgb(255, 212, 100);
-  margin-bottom: .0001rem;
   text-shadow: .5px .5px grey;
   line-height: 0.85;
+  margin-bottom: .01rem;
+  margin-top: .01rem;
+  text-align: left;
+  display: block;
 }
 
 .resume-school {
@@ -638,6 +653,7 @@ a {
 
 .about-background {
   background-color: rgba(255, 212, 100, .9);
+  border: .01rem solid black;
 }
 
 .about-wrapper {
@@ -662,4 +678,39 @@ a {
 .about-float-right {
   float:right;
   margin-left: 2rem;
+}
+
+.contact-btn {
+  background-color: rgb(19, 82, 162);
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-field {
+  width: 80%;
+  display: inline-block;
+  margin-left: 6.6rem;
+  margin-right: 6.5rem;
+}
+
+.contact-field > input {
+  width: 65rem;
+}
+
+.contact-field > textarea {
+  width: 65rem;
+}
+
+.contact-background {
+  background-color: rgb(255, 212, 100);
+  width: 80%;
+  height: 30%;
+  margin: auto;
+  border: .01rem solid black;
+  margin-bottom: 1rem;
+}
+
+.contact-centered {
+  text-align: center;
 }
