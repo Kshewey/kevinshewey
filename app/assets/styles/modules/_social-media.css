@@ -1,0 +1,17 @@
+.social-media {
+  background-color: $mainYellow;
+  width: 100%;
+  margin-top: -2rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-top: .01rem solid black;
+
+
+
+   img {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1.5rem;
+  }
+}

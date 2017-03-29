@@ -1,8 +1,17 @@
 .header {
 
-&-bottom-border {
-  border-bottom: .5rem solid rgb(19, 82, 162);
+&-banner {
+  background-color: rgb(19, 82, 162);
+  border-bottom: .15rem solid grey;
   margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  width: 100%;
+  color: white;
+  text-shadow: .8px .8px black;
+
+
 }
 &-union {
 font-size: 1rem;
@@ -30,7 +39,7 @@ margin-right: 2rem;
 
        a {
          text-decoration: none;
-         color: black;
+         color: white;
 
        }
 

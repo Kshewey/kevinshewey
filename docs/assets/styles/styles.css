@@ -1,7 +1,6 @@
 @import "normalize.css";
 @import "base/_global.css";
 @import "modules/_header.css";
-@import "modules/_wrapper.css";
 @import "modules/_slideshow.css";
 @import "modules/_row.css";
 @import "modules/_resume.css";
@@ -9,3 +8,6 @@
 @import "modules/_reel.css";
 @import "modules/_about.css";
 @import "modules/_contact.css";
+@import "base/_mixins.css";
+@import "modules/_social-media.css";
+@import "modules/_hoverbox.css";

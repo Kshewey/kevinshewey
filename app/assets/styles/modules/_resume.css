@@ -1,6 +1,7 @@
 .resume {
 
   line-height: .65;
+  font-size: 1rem;
 
 
 
@@ -11,6 +12,7 @@
   &-entire-margins{
     margin-left: 5rem;
     margin-right: 5rem;
+    min-width: 1345px;
   }
 
 
@@ -20,6 +22,7 @@
     display: block;
     margin: auto;
     font-size: .8rem;
+    margin-bottom: 2rem;
 p {
   text-align: center;
   font-size: .7rem;
@@ -56,5 +59,10 @@ p {
     line-height: .3rem;
   }
 
+&-wrapper {
+  width: 100%;
+  min-width: 1000px;
+
+}
 
 }

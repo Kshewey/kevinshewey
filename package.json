@@ -12,6 +12,7 @@
     "normalize": "^0.3.1",
     "postcss": "^5.2.15",
     "postcss-hexrgba": "^0.2.1",
+    "postcss-mixins": "^5.4.1",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^3.0.0"
   },
