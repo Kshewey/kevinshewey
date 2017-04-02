@@ -40,4 +40,11 @@ width: 65rem;
   &-centered {
   text-align: center;
 }
+
+&-thank-you-message {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  min-height: 30.6rem;
+}
 }
