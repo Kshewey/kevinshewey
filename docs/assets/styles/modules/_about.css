@@ -1,10 +1,16 @@
-.about {
 
+
+.about {
+background-color: rgb(255, 212, 100);
+margin-top: -1rem;
+margin-bottom: -3rem;
 
 
 &-wrapper {
   padding: 2rem 2rem 2rem 2rem;
   margin-bottom: 3rem;
+
+
 }
 
 &-img {

@@ -24,18 +24,35 @@ body {
 }
 
 
-
-.headshot-sizing img {
-  height: 36.31rem;
-  width: 23.13rem;
+.home-main-content {
+  display: inline-block;
+  background-color: rgb(255, 212, 100);
+  margin-top: -1rem;
+  padding-top: 2rem;
+  width: 100%;
 
 }
 
-.slideshow-wrapper {
-  min-height: 583px;
-  min-width: 370px;
-  margin-bottom: 1rem;a
+.home-name {
+  color: rgb(19, 82, 162);
+  display: inline-block;
+  padding-left: 20%;
+  padding-top: 12rem;
+  height: 100%;
+  text-align: center;
+  text-shadow: .5px .5px white;
+& h1 {
+  font-size: 3rem;
 }
+& h2 {
+margin-top: -1.6rem;
+}
+}
+
+.home-union {
+
+}
+
 
 a {
   text-decoration: none;
