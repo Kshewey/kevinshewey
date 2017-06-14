@@ -1,4 +1,13 @@
+.media {
+  background: rgb(240, 241, 238);
+  padding-bottom: 1.5rem;
+
+  margin-top: -2rem;
+
+}
+
 .reel {
+
   text-align: center;
   position: relative;
    padding-bottom: 56.25%;
@@ -10,6 +19,9 @@
      text-align: center;
      min-width: 64rem;
      min-height: 32rem;
+     width: 66%;
+     margin: auto;
+
    }
    & > iframe {
      position: absolute;
@@ -25,8 +37,10 @@
      text-shadow: .5px .5px grey;
      font-size: 3rem;
 
+
      &-margin {
        margin-bottom: 2rem;
+       
      }
    }
 }
