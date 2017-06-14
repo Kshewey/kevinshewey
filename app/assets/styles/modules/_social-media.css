@@ -1,11 +1,14 @@
 .social-media {
-  background-color: $mainYellow;
+  background-color: rgb(19, 82, 162);
   width: 100%;
-  margin-top: -2rem;
+  height: 100%;
+  margin-top: 0;
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 2rem;
   border-top: .01rem solid black;
+  border-top: .2rem solid #FF6961;
+  display: inline-block;;
 
 
 

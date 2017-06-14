@@ -19,10 +19,14 @@ display: inline-block;
   &__medium-4 {
 float: left;
     width: 35%;
-    
+
 
   }
+&-6 {
+  float: left;
+  width: 50%;
 
+}
   :after {
     content: "";
     clear: both;

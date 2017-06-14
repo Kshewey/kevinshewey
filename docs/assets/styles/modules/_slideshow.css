@@ -18,3 +18,18 @@
     width: 720px;
     height: 400px;
 }
+.slideshow-background {
+background-color: rgb(255, 212, 100);
+}
+
+.slideshow-wrapper {
+  min-height: 583px;
+  min-width: auto;
+  margin-bottom: 1rem;
+
+}
+.headshot-sizing img {
+  height: 36.31rem;
+  width: 23.13rem;
+
+}
