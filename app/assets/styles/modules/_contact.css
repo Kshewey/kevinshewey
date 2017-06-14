@@ -1,0 +1,66 @@
+.contact {
+display: block;
+background-color: rgb(240, 241, 238);
+
+&-btn {
+  background-color: $mainBlue;
+  color: white;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 3rem;
+}
+
+
+
+&-field {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: none;
+
+> input {
+  width: 65rem;
+
+
+
+}
+
+> textarea {
+
+width: 65rem;
+
+
+}
+
+}
+&-background {
+  background-color: $mainYellow;
+  width: 80%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border: .01rem solid black;
+  margin-bottom: 1rem;
+}
+
+  &-centered {
+  text-align: center;
+}
+
+&-thank-you-message {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  min-height: 30.6rem;
+}
+
+&-left-margin-adjust {
+  margin-right: 8.5%;
+}
+}
+
+#contact-margin-adjust {
+  margin-left: -10rem;
+}
