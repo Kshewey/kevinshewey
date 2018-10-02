@@ -1,72 +1,27 @@
 .resume {
+  &-flex {
+    display: flex;
+    flex-direction: row;
 
-  line-height: .65;
-  font-size: 1rem;
-  background-color: rgb(240, 241, 238);
-  display: block;
-  margin-top: -1rem;
-  padding-top: 1rem;
-
-
-
-&-line-height-fix {
-    line-height: .65rem;
-}
-
-  &-entire-margins{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    min-width: 1345px;
   }
 
+  &-flex-col-half {
+    width: 50%;
 
-  &-download {
-    height: 8%;
-    width: 8%;
-    display: block;
+  }
+
+  &-headshot {
+    width: 80%;
     margin: auto;
-    font-size: .8rem;
-    margin-bottom: 2rem;
-p {
-  text-align: center;
-  font-size: .7rem;
-}
-
-    img {
-      height: 100%;
-      width: 100%;
-
-    }
-
-
-
-}
-  &-heading {
-    font-size: 4rem;
-    color: rgb(255, 212, 100);
-    text-shadow: .5px .5px grey;
-    line-height: 0.85;
-    margin-bottom: .01rem;
-    margin-top: .01rem;
-    text-align: left;
-    display: block;
-
-
   }
 
-  &-school {
-    font-size: 1.5rem;
-    line-height: .7rem;
+  &-align-center {
+    text-align: center;
   }
-
-  &-line-spacing-small {
-    line-height: .3rem;
+  &-section-flex-row {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
   }
-
-&-wrapper {
-  width: 100%;
-  min-width: 1000px;
-
-}
-
 }

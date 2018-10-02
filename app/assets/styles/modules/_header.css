@@ -1,61 +1,32 @@
 .header {
-
-&-padding-top{
-  padding-top: 5.1rem;
-}
-&-banner {
-  background-color: rgb(19, 82, 162);
-  padding-bottom: .7rem;
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
+  background-image: url(/assets/images/headshotbanner.jpg) ;
+  height: 100%;
+  background-size: cover;
   width: 100%;
-  color: white;
-  text-shadow: .8px .8px black;
-  border-bottom: .2rem solid #FF6961;
-  min-height: 8.875rem;
+    box-shadow: 0px 2px 2px #393931;
 
 
-}
-&-union {
-font-size: 1rem;
-margin-top: -1rem;
-}
 
-&-nav-bar {
-    list-style: none;
-margin-right: 2rem;
+  &-name {
+    text-align: center;
+    position: absolute;
 
-    &::after {
-      content: "";
-      clear: both;
-      display: table;
-
-
-}
-    & li {
-      margin-top: -1rem;
-      display: inline;
-      margin-left: 2rem;
-      float: right;
-      font-weight: 600;
-      font-size: 1.2rem;
-
-       a {
-         text-decoration: none;
-         color: white;
-
-
-       }
- a:active {
-   color: #FF6961;
- }
-       :hover {
-         text-decoration: underline;
-       }
-
-
-    }
+  right: 10%;
+  top: 30%;
+    & h2 {
+    color: #003366;
+    font-weight: 300;
+    font-size: 4rem;
+    text-shadow: 1px 1px grey;
   }
+  & h3 {
+    color: #C0603F;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: -50px;
+    text-shadow: 1px 1px black;
+  }
+}
+
+
 }

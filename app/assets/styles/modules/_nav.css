@@ -1,0 +1,18 @@
+.nav {
+z-index: 10;
+position: fixed;
+right: 5%;
+top: 20px;
+
+  & ul {
+    list-style: none;
+  }
+
+  & li {
+      display: inline;
+      margin-right: 25px;
+      color: #393931;
+      text-shadow: 1px 1px #D5D6D2;
+      font-size: 1.7rem;
+  }
+}
