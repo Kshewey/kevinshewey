@@ -1,0 +1,22 @@
+.row {
+
+
+
+  &-8 {
+    float: left;
+    width: 62.66%
+    margin-right: 4%;
+  }
+
+  &-4 {
+    float: left;
+    width: 33.33%
+  }
+
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+}

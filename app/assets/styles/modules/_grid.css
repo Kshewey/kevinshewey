@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+
+
+&-resume {
+  width: 50%;  /* remove this later */
+  grid-template-columns: .8fr .45fr 1fr;
+  grid-auto-rows: 18px;
+
+}
+}

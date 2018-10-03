@@ -1,27 +1,12 @@
 .resume {
-  &-flex {
-    display: flex;
-    flex-direction: row;
+  color: #0B2438;
+  text-shadow: .5px .5px grey;
+  font-size: .75rem;
 
-  }
-
-  &-flex-col-half {
-    width: 50%;
-
-  }
-
-  &-headshot {
-    width: 80%;
-    margin: auto;
-  }
-
-  &-align-center {
-    text-align: center;
-  }
-  &-section-flex-row {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    justify-content: space-around;
+  & h3 {
+    color:#C0603F;
+    text-decoration: underline;
+    margin-bottom: -5px;
+    margin-top: 35px;
   }
 }
