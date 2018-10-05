@@ -577,12 +577,13 @@ a {
 }
 
 .resume-download {
-  margin-top: 40px;
+  margin: auto;
   text-align: center;
+  width: 140px;
 }
 
 .resume-download img {
-  width: 40px;
+  width: 35px;
 }
 
 .resume-download h4 {
