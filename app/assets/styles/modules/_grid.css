@@ -2,6 +2,10 @@
   display: grid;
 
 
+&-contact {
+    grid-template-columns: 1fr 1fr;
+}
+
 &-resume {
 
   grid-template-columns: 1fr .7fr 1.5fr;

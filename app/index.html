@@ -107,6 +107,7 @@
     <p>The Lion, The Witch, and the Wardrobe</p>
     <p>Aslan</p>
     <p>Theatreworks USA dir Travis Greisler</p>
+    <br>
   </div>  <!-- grid -->
 
   <h3>Regional Theatre</h3>
@@ -194,7 +195,44 @@
 
 
 
+<div class="contact">
+  <div class="grid grid-contact">
+    <div class="contact-image">
+      <img src="assets/images/contact.jpg">
+    </div> <!-- contact-image -->
+    <div class="contact-form">
+      <form id="gform" method="POST" class="pure-form pure-form-stacked"
+      action="https://script.google.com/macros/s/AKfycbzIVm3-FyXyBaq3f1RaRZ24qfwsOQ4xCInNfQypcq4Tj8ZB-nE9/exec">
 
+
+          <fieldset class="contact-field">
+            <label for="name">Name: </label><br>
+            <input id="name" name="name" placeholder="Your Name" />
+          </fieldset>
+
+          <fieldset class="contact-field">
+            <label for="message">Message: </label><br>
+            <textarea id="message" name="message" rows="10"
+            placeholder="What can I do for you?"></textarea>
+          </fieldset>
+
+          <fieldset class="contact-field">
+            <div id="contact-margin-adjust"><label for="email">Your Email Address:</label></div><br>
+            <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com"/>
+            <span id="email-invalid" style="visibility:hidden">
+              Must be a valid email address</span>
+          </fieldset>
+
+
+
+
+          <button class="contact-btn">
+            <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+        </form>
+    </div>
+  </div> <!-- grid -->
+</div> <!--contact -->
 
 
 
