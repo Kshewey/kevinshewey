@@ -9,33 +9,51 @@
   <meta name="description" content="Kevin Shewey - Actor Webpage">
   <link rel="stylesheet" href="temp/styles/styles.css">
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400" rel="stylesheet">
+<scipt src="temp/scripts/script.js"></script>
+<meta charset="UTF-8">
+
 
 
 
 </head>
 <body>
+<div id="nav-background">
+
   <div class="nav">
     <ul>
-      <li>Home</li>
-      <li>Resume</li>
-      <li>Media</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
+</div>
   <div class="header">
+  <div id="home">
 
     <div class="header-name">
       <h2>Kevin Shewey</h2>
       <h3>AEA | SAG-AFTRAe</h3>
     </div>
-
+</div> <!-- home id -->
   </div>
 
 
 <div class="about about-wrapper">
-  <h3>About Me</h3>
-  <p>Bacon ipsum dolor amet tenderloin sirloin pastrami filet mignon chuck kevin meatloaf shoulder. Pork belly ball tip flank, filet mignon pork chop cupim jerky shank chicken bacon. Capicola cow kevin fatback filet mignon pork belly meatloaf hamburger prosciutto corned beef drumstick jerky leberkas. Pork belly cupim biltong ham cow kevin meatloaf buffalo beef ribs shoulder chicken turducken. Corned beef ball tip strip steak, shoulder frankfurter pastrami alcatra pork loin. Brisket biltong alcatra bacon, jowl bresaola hamburger prosciutto swine beef pork loin.</p>
+  <div id="about">
+    <div class="grid grid-about">
+      <div>
+        <h3>About</h3>
+        <p><b>Kevin Shewey</b> is a quick thinker, a fast talker, and idealistic to a fault.  He’s sharp on the uptake and always has a witty zinger when someone does something stupid, but will also be the first to give a compliment when it’s needed.  Generally optimistic with a strong moral center.  Fiercely intelligent. Usually bad with relationships.</p>
+        <p>Kevin is an actor, producer, improvisor, and big time nerd.  After getting his MFA in Acting from UC Irvine, he did a stint in New York where he performed Shakespeare Off-Broadway, followed by a stint in a touring musical, followed by realizing that Los Angeles is a much nicer place to live than the East Coast.  Now he works and performs in Los Angeles where he’s a member of the Actors Co Op Theatre company and a frequent performer at UCB.</p>
+        <p>Whether onstage or on camera, Kevin loves stories that connect people, bring empathy and compassion, make people laugh, and teach us something about ourselves.</p>
+      </div>
+      <div class="grid-about about-image" >
+        <img src="/assets/images/aboutheadshot.jpg" class="about-headshot">
+      </div>
+    </div> <!---about grid -->
+  </div> <!-- about id -->
   <div class="about-boxes">
     <div class="about-box">
     </div>
@@ -52,25 +70,35 @@
 
 
 
-<div class="media">
+<div class="media" id="media">
   <div class="media-wrapper">
   <h3>Videos</h3>
   <div class="row">
-    <div class="media-video-container row-8">
+    <div class="row-6">
+      <div class="media-video-container media-video-padding-right">
+      <iframe src="https://www.youtube.com/embed/dv3wlbVLFiY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="media-video-iframe"></iframe>
+    </div>
+    </div><!--media-video-description -->
+
+    <div class="row-6 media-video-padding-left">
+      <div class="media-video-container">
       <iframe src="https://www.youtube.com/embed/bYxzPUnUhGA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="media-video-iframe"></iframe>
     </div>
-    <div class="media-video-description row-4">
-      <h4>BEFORE WE MEET</h4>
-      <p>HE is getting ready for the big date and real nervous about it.  HE's Turducken cupim picanha ball tip tri-tip flank doner. Pork belly brisket jowl tri-tip, drumstick pastrami doner strip steak pancetta chicken beef salami pork andouille. Ribeye alcatra picanha, cow swine ham hock turkey brisket. Leberkas strip steak rump burgdoggen cupim capicola.</p>
-    </div><!--media-video-description -->
+    </div>
+
   </div> <!-- row-->
-  <div class="row">
-  <div class="media-video-container">
-    <iframe src="https://www.youtube.com/embed/dv3wlbVLFiY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="row">
+
+  <div class="media-top-margin row-6 media-center">
+      <div class="media-video-container">
+
+      <iframe src="https://www.youtube.com/embed/ucf7gw6QUBM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="media-video-iframe" ></iframe>
+    </div>
   </div>
-  <h4>BEFORE WE MEET by Randy May</h4>
-  <p>Turducken cupim picanha ball tip tri-tip flank doner. Pork belly brisket jowl tri-tip, drumstick pastrami doner strip steak pancetta chicken beef salami pork andouille. Ribeye alcatra picanha, cow swine ham hock turkey brisket. Leberkas strip steak rump burgdoggen cupim capicola.</p>
-</div> <!-- row-->
+
+</div>
+
+
 </div> <!-- media wrapper -->
 </div> <!-- media -->
 
@@ -79,7 +107,7 @@
 
 
 
-<div class="resume resume-wrapper">
+<div class="resume resume-wrapper" id="resume">
 <div class="grid grid-resume-twocolumn">
 <div class="resume-grid-header">
   <h2>Resume</h2>
@@ -179,32 +207,34 @@
   <p>Stage Combat – Martin Katz, Micah Chandler</p>
   <p>Clown/Mask - Eli Simon, Aole Miller</p>
   <p>Movement/Contact Improvisation – Annie Louie</p>
-  <p>Improv – UCB 101/201, 3 years with Live Nude People (With Clothes On)</p>
+  <p>Improv – UCB 101/201/301, 3 years with Live Nude People (With Clothes On)</p>
 </div> <!-- grid-resume-header -->
 <div class="resume-grid-img">
-  <img src="assets/images/kevinheadshot.jpg">
+  <img src="/assets/images/resumeheadshot.jpg">
 </div> <!--grid-resume-img -->
 </div> <!-- grid resume wrapper-->
 <div class="resume-download">
-<a href="assets/documents/kevin-shewey-resume.pdf" download>
+<a href="/assets/documents/kevin-shewey-resume.pdf" download>
   <h4>Download</h4>
-  <img src="assets/images/download.png">
+  <img src="/assets/images/download.png">
 </a>
 </div>
 </div> <!-- resume-->
 
 
 
-<div class="contact">
+<div class="contact" id="contact">
+  <h2>Contact Me</h2>
   <div class="grid grid-contact">
     <div class="contact-image">
-      <img src="assets/images/contact.jpg">
+      <img src="/assets/images/contact.jpg">
+
     </div> <!-- contact-image -->
     <div class="contact-form">
       <form id="gform" method="POST" class="pure-form pure-form-stacked"
       action="https://script.google.com/macros/s/AKfycbzIVm3-FyXyBaq3f1RaRZ24qfwsOQ4xCInNfQypcq4Tj8ZB-nE9/exec">
 
-
+      <div class="contact-form-flex-center">
           <fieldset class="contact-field">
             <label for="name">Name: </label><br>
             <input id="name" name="name" placeholder="Your Name" />
@@ -212,8 +242,7 @@
 
           <fieldset class="contact-field">
             <label for="message">Message: </label><br>
-            <textarea id="message" name="message" rows="10"
-            placeholder="What can I do for you?"></textarea>
+            <textarea id="message" name="message" rows="10" placeholder="What can I do for you?"></textarea>
           </fieldset>
 
           <fieldset class="contact-field">
@@ -226,14 +255,26 @@
 
 
 
-          <button class="contact-btn">
-            <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+                <button class="contact-button"><img src="assets/images/send-icon-white.png"></img>Send</button>
+              </div>
+
+
+              <div class="social">
+                <div class="social-flex">
+                  <a href="https://www.imdb.me/kevinshewey"><img src="assets/images/iconfinder_imdb.png"></a>
+                  <a href="https://www.youtube.com/user/Stagenerd1"><img src="assets/images/iconfinder_youtube.png"></a>
+                  <a href="https://www.instagram.com/shewsical/"><img src="assets/images/instagram.png"></a>
+                  <a href="https://www.facebook.com/kevin.shewey"><img src="assets/images/iconfinder_facebook.png"></a>
+                  <a href="https://twitter.com/Kshewey"><img src="assets/images/iconfinder_twitter.png"></a>
+
+                </div> <!-- flex -->
+              </div> <!-- Social -->
 
         </form>
     </div>
   </div> <!-- grid -->
 </div> <!--contact -->
-
 
 
 

@@ -15,9 +15,10 @@ margin: 0px;
 padding: 0;
 height: 100%;
 width: 100%;
+font-weight: 300;
 
 & p {
-  font-weight: 300;
+
 }
 
 }

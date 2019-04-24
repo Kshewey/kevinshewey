@@ -5,13 +5,28 @@
   &-8 {
     float: left;
     width: 62.66%;
-    margin-right: 4%;
+
+  }
+
+  &-6 {
+    float: left;
+    width: 48.75%;
+
+    @media only screen and (max-width: 1000px) {
+    width: 100%;
+    }
   }
 
   &-4 {
     float: left;
     width: 33.33%
   }
+
+&-3 {
+  float:left;
+  width: 25%;
+}
+
 
 
   &::after {

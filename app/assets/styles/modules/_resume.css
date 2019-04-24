@@ -4,6 +4,18 @@
   color: #0B2438;
   text-shadow: .5px .5px grey;
   font-size: .75rem;
+  @media only screen and (max-width: 1000px) {
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 1220px) {
+    font-size: .6rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: .3rem;
+  }
+
 
   & p {
     margin-bottom: -10px;
@@ -14,6 +26,7 @@
     text-decoration: underline;
     margin-bottom: -5px;
     margin-top: 25px;
+
   }
 
   &-training {
@@ -39,14 +52,31 @@
     font-size: 2.5rem;
     font-weight: 300;
     width: 155px;
+
+
+      @media only screen and (max-width: 1000px) {
+        margin: auto;
+        text-align: center;
+      }
+
   }
 }
 
 &-grid-img {
   margin-top: 10%;
     align-self: center;
+
+      @media only screen and (max-width: 1000px) {
+        text-align: center;
+      }
     & img {
       width: 100%;
+
+      @media only screen and (max-width: 1000px) {
+        width: 275px;
+        margin:auto;
+      }
+
     }
   }
 
@@ -55,7 +85,7 @@
     text-align: center;
     width: 140px;
     & img {
-    
+
     width: 35px;
 }
 

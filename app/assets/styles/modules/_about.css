@@ -6,21 +6,36 @@ color: #0B2438;
 text-shadow: .5px .5px grey;
 font-size: 1.3rem;
 margin-bottom: 7%;
+@media only screen and (max-width: 1000px) {
+  font-size: .9rem;
+}
 
 
+&-image {
+  @media only screen and (max-width: 1000px) {
+    text-align: center;
+  }
+}
 & p {
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 
 &-wrapper {
-  width: 60%;
+  width: 80%;
+  padding-top: 3%;
+
 }
 
 & h3 {
+  color: #C0603F;
+
   font-weight: 300;
-  font-size: 3rem;
   text-align: center;
   text-shadow: 1px 1px grey;
+  font-size: 2.5rem;
+  width: 190px;
+  border-bottom: solid 1.5px #C0603F;
+  margin: auto;
 }
 
 &-box {
@@ -34,8 +49,31 @@ margin-bottom: 7%;
 &-boxes {
   width: 80%;
   margin: auto;
+  margin-top: 7%;
   display: flex;
   justify-content: space-around;
+  @media only screen and (max-width: 1000px) {
+  display: none;
+  }
+
+}
+
+&-headshot {
+  width: 100%;
+  margin: auto;
+  margin-top: 10%;
+
+  @media only screen and (max-width: 1100px) {
+    margin-top:40%;
+    width: 275px;
+  }
+  @media only screen and (max-width: 1000px) {
+    margin-top:5%;
+    width: 275px;
+
+  }
+
+
 }
 
 }

@@ -2,7 +2,26 @@
 z-index: 10;
 position: fixed;
 right: 5%;
-top: 20px;
+top: 10px;
+
+@media (max-width: 1000px) {
+  display: none;
+}
+
+& a {
+  text-decoration: none;
+  color: #393931;
+  transition: .3s;
+
+
+}
+
+& a:hover {
+
+    color: #C0603F;
+    text-shadow: .5px .5px black;
+
+}
 
   & ul {
     list-style: none;
@@ -14,5 +33,27 @@ top: 20px;
       color: #393931;
       text-shadow: 1px 1px #D5D6D2;
       font-size: 1.7rem;
+  }
+
+
+  &-background-color {
+    background-color: rgba(91, 91, 91, 0.5);
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+     height: 90px;
+     border-bottom: 1px solid grey;
+& a {
+  color: #003366 !important;
+  text-shadow: 1px 1px grey !important;
+}
+
+& a:hover {
+
+    color: #C0603F !important;
+    text-shadow: .5px .5px black !important;
+
+}
+
   }
 }

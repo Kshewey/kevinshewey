@@ -1,18 +1,164 @@
 .contact {
   background-color: #0B2438;
+  padding-top: 2%;
+  padding-bottom: 3%;
 
+
+& h2 {
+  color: #C0603F;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 1px 1px grey;
+  font-size: 2.5rem;
+  width: 218px;
+  border-bottom: solid 1.5px #C0603F;
+  margin: auto;
+  margin-bottom: 3%;
+  @media only screen and (max-width: 1000px) {
+    margin-bottom: none;
+  }
+}
 
   &-image {
     text-align: center;
+    border-right: dotted #C0603F;
+
+    @media only screen and (max-width: 1000px) {
+      border-right: none;
+    }
     & img {
-      width: 50%;
+    width: 50%;
+    @media only screen and (max-width: 1100px) {
+      margin-top:none;
+      width: 275px;
+    }
 
     }
   }
 
   &-form {
+    width: 100%;
+    padding-left: -30px;
+
+    &-flex-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+& fieldset {
+  border: none;
+  width: 75%;
+}
+
+
+
+
+
     & input {
-      background-color: #273F53;
+      transition:all 0.3s ease-in;
+      display: inline-block;
+      width: 100%;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      border-color: grey;
+      background-color: #345f80;
+      color: white;
+      text-shadow: .5px .5px grey;
+      padding: 7px;
+ -webkit-box-shadow: inset 2px 2px 2px 0px #244157;
+ -moz-box-shadow: inset 2px 2px 2px 0px #244157;
+ box-shadow: inset 2px 2px 2px 0px #244157;
+
+
+
+&:focus {
+  outline-color: #C0603F;
+  outline-width: thick;
+
+
+}
+
+      &::placeholder {
+        color: black;
+      }
+    }
+
+    & textarea {
+      transition:all 0.3s ease-in;
+      width: 100%;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      border-color: grey;
+      background-color: #345f80;
+      color: white;
+      text-shadow: .5px .5px grey;
+      padding: 7px;
+ -webkit-box-shadow: inset 2px 2px 2px 0px #244157;
+ -moz-box-shadow: inset 2px 2px 2px 0px #244157;
+ box-shadow: inset 2px 2px 2px 0px #244157;
+
+ &:focus {
+   outline-color: #C0603F;
+   outline-width: thick;
+
+
+ }
+
+
+
+      &::placeholder {
+        color: black;
+      }
     }
   }
+
+  &-field {
+
+    & label {
+      display: inline-block;
+      float: left;
+      color: white;
+    }
+  }
+
+
+
+
+  &-button {
+    transition:all 0.3s ease-in;
+    background-color: #C0603F;
+    border-color: #345f80;
+    box-shadow: outset 2px 2px 2px 2px #345f80;
+    color: white;
+    width: 100px;
+    margin: auto;
+    border-radius: 7px 7px 7px 7px;
+    padding-bottom: 3px;
+
+
+
+
+    & img {
+      width: 25%;
+      margin-right: 10px;
+      margin-bottom: -3px;
+
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: #345f80;
+      color: black;
+      text-shadow: .5px .5px grey;
+    }
+
+
+
+}
+
 }
