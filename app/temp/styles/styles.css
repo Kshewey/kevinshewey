@@ -580,7 +580,7 @@ a {
 @media only screen and (max-width: 500px) {
 
   .resume {
-    font-size: .3rem;
+    font-size: .5rem;
   }
 }
 
@@ -1164,7 +1164,7 @@ top: 10px;
 }
 
 .social-flex {
-  width: 50%;
+  width: 75%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
